@@ -18,11 +18,19 @@ function nextSlide(){
 function playVoice(){
   document.getElementById("voiceNote").play();
 }
-
 function startMusic(){
-  let music = document.getElementById("bgMusic");
+  const voice = document.getElementById("voiceNote");
+  const music = document.getElementById("bgMusic");
+
+  if(voice){
+    voice.pause();     // stop voice first
+    voice.currentTime = 0;
+  }
+
+  music.currentTime = 0;
   music.play();
 }
+
 
 function moveNo(btn){
   btn.style.left = Math.random()*200-100+"px";
