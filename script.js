@@ -20,7 +20,13 @@ function playVoice(){
 }
 
 function startMusic(){
-  document.getElementById("bgMusic").play();
+  let music = document.getElementById("bgMusic");
+  music.play();
+}
+
+function moveNo(btn){
+  btn.style.left = Math.random()*200-100+"px";
+  btn.style.top = Math.random()*100-50+"px";
 }
 
 window.onload = function(){
