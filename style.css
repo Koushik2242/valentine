@@ -87,4 +87,13 @@ button{
   line-height:1.6;
 }
 
+.gallery{
+  display:flex;
+  overflow-x:auto;
+  gap:15px;
+  width:100%;
+  padding:20px;
+  justify-content:center;   /* ADD THIS */
+}
+
 .kiss{width:220px;}
