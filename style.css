@@ -1,0 +1,53 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#000;
+  color:white;
+}
+
+.slide{
+  display:none;
+  height:100vh;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  text-align:center;
+  padding:20px;
+}
+
+img{
+  max-width:90%;
+  max-height:60vh;
+  margin:10px;
+}
+
+.gallery{
+  display:flex;
+  overflow-x:auto;
+  gap:15px;
+  width:100%;
+  padding:20px;
+}
+
+.gallery img{
+  height:220px;
+}
+
+button{
+  padding:14px 28px;
+  border:none;
+  border-radius:30px;
+  background:#ff4d6d;
+  color:white;
+  font-size:16px;
+  margin-top:20px;
+}
+
+.letter{
+  max-width:600px;
+  line-height:1.6;
+}
+
+.kiss{
+  width:220px;
+}
