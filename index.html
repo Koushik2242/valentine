@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>For Varshini ❤️ </title>
+<title>For Varshini ❤️</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,33 +14,37 @@
 
 <!-- INTRO -->
 <section class="slide">
-  <h1>Hi Varshini ❤️</h1>
-  <p>I made something for you</p>
+  <h1 class="fade">Hi Varshini ❤️</h1>
+  <p class="fade">I made something for you</p>
   <button onclick="nextSlide()">Tap to begin</button>
 </section>
 
 <!-- TIMELINE -->
 <section class="slide">
-  <img src="timeline/t1.jpg">
+  <img src="timeline/t1.jpg" class="zoom">
   <h2>March 1, 2023</h2>
+  <p>The day our eyes met for the first time.</p>
   <button onclick="nextSlide()">Next</button>
 </section>
 
 <section class="slide">
-  <img src="timeline/t2.jpg">
+  <img src="timeline/t2.jpg" class="zoom">
   <h2>March 11, 2023</h2>
+  <p>Our first picture together ❤️</p>
   <button onclick="nextSlide()">Next</button>
 </section>
 
 <section class="slide">
-  <img src="timeline/t3.jpg">
+  <img src="timeline/t3.jpg" class="zoom">
   <h2>August 8, 2023</h2>
+  <p>Our first selfie.</p>
   <button onclick="nextSlide()">Next</button>
 </section>
 
 <section class="slide">
-  <img src="timeline/t4.jpg">
+  <img src="timeline/t4.jpg" class="zoom">
   <h2>October 7, 2024</h2>
+  <p>Our first anniversary together.</p>
   <button onclick="nextSlide()">Next</button>
 </section>
 
@@ -61,26 +65,33 @@
 <!-- GALLERY -->
 <section class="slide">
   <h2>Our memories ❤️</h2>
+  <p class="hint">Slide →</p>
+
   <div class="gallery">
-    <img src="gallery/g1.jpg">
-    <img src="gallery/g2.jpg">
-    <img src="gallery/g3.jpg">
-    <img src="gallery/g4.jpg">
-    <img src="gallery/g5.jpg">
-    <img src="gallery/g6.jpg">
-    <img src="gallery/g7.jpg">
-    <img src="gallery/g8.jpg">
-    <img src="gallery/g9.jpg">
-    <img src="gallery/g10.jpg">
+    <img src="gallery/1.jpg">
+    <img src="gallery/2.jpg">
+    <img src="gallery/3.jpg">
+    <img src="gallery/4.jpg">
+    <img src="gallery/5.jpg">
+    <img src="gallery/6.jpg">
+    <img src="gallery/7.jpg">
+    <img src="gallery/8.jpg">
+    <img src="gallery/9.jpg">
+    <img src="gallery/10.jpg">
   </div>
+
   <button onclick="nextSlide()">Next</button>
 </section>
 
 <!-- PROPOSAL -->
 <section class="slide">
-  <h1>Varshini…</h1>
+  <h1 class="pulse">Varshini…</h1>
   <h2>Will you be my Valentine?</h2>
-  <button onclick="nextSlide()">YES 💘</button>
+
+  <div class="buttons">
+    <button onclick="nextSlide()">YES 💘</button>
+    <button class="no" onclick="moveNo(this)">NO 🙈</button>
+  </div>
 </section>
 
 <!-- GIF -->
