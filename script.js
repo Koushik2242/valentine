@@ -31,11 +31,12 @@ function startMusic(){
   music.play();
 }
 
-
 function moveNo(btn){
-  btn.style.left = Math.random()*200-100+"px";
-  btn.style.top = Math.random()*100-50+"px";
+  btn.style.position="absolute";
+  btn.style.left = Math.random()*70 + "%";
+  btn.style.top = Math.random()*60 + "%";
 }
+
 
 window.onload = function(){
   showSlide(0);
