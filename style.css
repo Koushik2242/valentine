@@ -4,6 +4,19 @@ body{
   background:#000;
   color:white;
 }
+.centerBlock{
+  text-align:center;
+  width:100%;
+  margin-bottom:15px;
+}
+
+.centerBlock h2{
+  margin-bottom:5px;
+}
+
+.centerBlock p{
+  opacity:0.8;
+}
 
 .slide{
   display:none;
