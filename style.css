@@ -71,7 +71,11 @@ button{
 
 .buttons{display:flex;gap:20px;}
 
-.no{position:relative;}
+.no{
+  position:relative;
+  transition:all 0.3s ease;
+}
+
 
 .hint{
   font-size:14px;
